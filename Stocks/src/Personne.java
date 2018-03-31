@@ -10,19 +10,19 @@ public class Personne {
 	/** 
 	 * Nom de la personne
 	 */
-	private String nom;		
+	private static String nom;		
 	/**
 	 * Prénom de la personne
 	 */
-	private String prenom;	
+	private static String prenom;	
 	/**
 	 * Date de naissance de la personne
 	 */
-	private String date_nais;		
+	private static String date_nais;		
 	/**
 	 * Fonction de la personne dans l'école
 	 */
-	private String fonction;
+	private static String fonction;
 
 
 	/**
@@ -43,14 +43,14 @@ public class Personne {
 	 * getter pour l'attribut nom
 	 * @return valeur du nom de la personne
 	 */
-	public String getnom() {
+	public static String getnom() {
 		return nom;
 	}
 	/**
 	 * getter pour l'attribut prenom
 	 * @return valeur du prénom de la personne
 	 */
-	public String getprenom() {
+	public static String getprenom() {
 		return prenom;
 	}
 	/**
@@ -64,7 +64,7 @@ public class Personne {
 	 * getter  pour l'attribut date_nais
 	 * @return valeur de la date de naissance de la personne
 	 */
-	public String getdate_nais() {
+	public  static String getdate_nais() {
 		return date_nais;
 	}
 	/**
@@ -78,7 +78,7 @@ public class Personne {
 	 * getter  pour l'attribut fonction
 	 * @return valeur de la fonction de la personne
 	 */
-	public String getfonction() {
+	public static String getfonction() {
 		return fonction;
 	}
 	/**
